@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * Use the function puts to print the textt
- * and return the value 0
+ * main-Use the function puts to print the textt
+ * return: and return the value 0
 */
 
-int main()
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
