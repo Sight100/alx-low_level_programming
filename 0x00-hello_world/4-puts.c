@@ -2,7 +2,8 @@
 
 /**
  * main-Use the function puts to print the textt
- * return: and return the value 0
+ * 
+ * Return: 0 for succesful exit
 */
 
 int main(void)
