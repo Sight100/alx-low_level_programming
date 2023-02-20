@@ -1,4 +1,4 @@
-#include <studiio.h>
+#include <studio.h>
 
 /**
  * Use the function puts to print the textt
