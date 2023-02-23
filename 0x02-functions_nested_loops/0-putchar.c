@@ -1,32 +1,13 @@
-#include <stdio.h>
-#include <main.h>
+#include <unistd.h>
 
 /**
-   *main - This function prints _putchar using putchar
-   *
-   *Return: This function returns 0 on success
-   */
-
-int main(void)
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-	int i = 0;
-	char print[9];
-
-	print [0] = 95;
-	print [1] = 112;
-	print [2] = 117;
-	print [3] = 116;
-	print [4] = 99;
-	print [5] = 104;
-	print [6] = 97;
-	print [7] = 114;
-	print [8] = 10;
-
-	while (i <= 8)
-	{
-		putchar(print[i]);
-		++i;
-	}
-
-	return (0);
+	return (write(1, &c, 1));
 }
